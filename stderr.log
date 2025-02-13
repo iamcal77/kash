@@ -1,0 +1,416 @@
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: {
+  requestId: '0a83-4731-ac2e-58dccc54ee59162392343',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: '0a83-4731-ac2e-58dccc54ee59162392350',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: 'ecab-4c60-99d3-11c7168133a0161948978',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: 'e1f1-482d-9538-d140c330be9b162570156',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: '60e4-4f14-997e-f04c8c4f586d156362449',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: 'c687-4e11-bbe3-3e2fd41c9911157404184',
+  errorCode: '500.001.1001',
+  errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+}
+Error initiating STK Push: {
+  requestId: 'dab3-4cb9-9110-99918efd35e3169542959',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '60e4-4f14-997e-f04c8c4f586d160885156',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '60e4-4f14-997e-f04c8c4f586d160885354',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'ecab-4c60-99d3-11c7168133a0169137193',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '6771-4f62-b538-7b9142758505162355396',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'ecab-4c60-99d3-11c7168133a0169688686',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'c687-4e11-bbe3-3e2fd41c9911161579041',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '38d5-4ca6-b9c9-0240a9781f7a165009629',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'feab-4d34-8ffb-457d02cd9bfc174664325',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '60e4-4f14-997e-f04c8c4f586d161445478',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '38d5-4ca6-b9c9-0240a9781f7a165015151',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'feab-4d34-8ffb-457d02cd9bfc174666798',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'ecab-4c60-99d3-11c7168133a0169980015',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '0a83-4731-ac2e-58dccc54ee59166629864',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '60e4-4f14-997e-f04c8c4f586d162229437',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: 'ecab-4c60-99d3-11c7168133a0170471228',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error initiating STK Push: {
+  requestId: '38d5-4ca6-b9c9-0240a9781f7a165794557',
+  errorCode: '404.001.03',
+  errorMessage: 'Invalid Access Token'
+}
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/activate: fork: retry: Resource temporarily unavailable
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error generating OAuth token: 
+Error initiating STK Push: Failed to generate OAuth token
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+Error initiating STK Push: Invalid phone number format. Expected a Kenyan phone number starting with '254'.
+STK Push Error: {
+  attempt: 1,
+  status: 400,
+  data: {
+    requestId: 'aba0-4119-bd0a-28c60f0ef1ef449481',
+    errorCode: '400.002.02',
+    errorMessage: 'Bad Request - Invalid PhoneNumber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 400,
+  data: {
+    requestId: 'bbcd-4a89-bd1a-6ecdc639893b66236',
+    errorCode: '400.002.02',
+    errorMessage: 'Bad Request - Invalid PhoneNumber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 400,
+  data: {
+    requestId: '8db8-42b1-b82f-13000588c93781217',
+    errorCode: '400.002.02',
+    errorMessage: 'Bad Request - Invalid PhoneNumber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: '8db8-42b1-b82f-13000588c93781218',
+    errorCode: '500.003.02',
+    errorMessage: 'System is busy. Please try again in few minutes.'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 400,
+  data: {
+    requestId: 'b63c-4f5b-830c-97562f598bca509185',
+    errorCode: '400.002.02',
+    errorMessage: 'Bad Request - Invalid PhoneNumber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 400,
+  data: {
+    requestId: 'aba0-4119-bd0a-28c60f0ef1ef506607',
+    errorCode: '400.002.02',
+    errorMessage: 'Bad Request - Invalid PhoneNumber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'aba0-4119-bd0a-28c60f0ef1ef506608',
+    errorCode: '500.003.02',
+    errorMessage: 'System is busy. Please try again in few minutes.'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'b63c-4f5b-830c-97562f598bca509186',
+    errorCode: '500.003.02',
+    errorMessage: 'System is busy. Please try again in few minutes.'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: '8db8-42b1-b82f-13000588c93792776',
+    errorCode: '500.001.1001',
+    errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'b54f-471d-93d9-f7f3bf3f7c0e136965',
+    errorCode: '500.001.1001',
+    errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+  }
+}
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: retry: Resource temporarily unavailable
+/home/knwxzwjn/nodevenv/public_html/organized/20/bin/node: fork: Resource temporarily unavailable
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'b54f-471d-93d9-f7f3bf3f7c0e177524',
+    errorCode: '500.001.1001',
+    errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'b54f-471d-93d9-f7f3bf3f7c0e179963',
+    errorCode: '500.001.1001',
+    errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+  }
+}
+STK Push Error: {
+  attempt: 1,
+  status: 500,
+  data: {
+    requestId: 'b63c-4f5b-830c-97562f598bca555414',
+    errorCode: '500.001.1001',
+    errorMessage: 'Unable to lock subscriber, a transaction is already in process for the current subscriber'
+  }
+}
+STK Push Error: { attempt: 1, status: undefined, data: undefined }

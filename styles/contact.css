@@ -1,0 +1,140 @@
+/* Styling for Contact Page */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Container - Split into Two Columns */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Left Section Styling */
+.left-section {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.left-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Right Section Styling */
+.right-section {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5c67f2;
+}
+
+/* Form Styling */
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #5c67f2;
+  outline: none;
+  background-color: #f1f1f1;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #4a54d1, #1c1f99);
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr; /* Stack sections vertically */
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    padding: 30px;
+  }
+
+  .left-section h1 {
+    font-size: 28px;
+  }
+
+  .right-section h2 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}

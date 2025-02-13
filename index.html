@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Kash Loan</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/shared.css">
+    <link rel="stylesheet" href="styles/preloader.css">
+    <link rel="stylesheet" href="styles/notification.css">
+</head>
+
+<body>
+    <!-- Preloader Section -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="arc"></div>
+            <div class="arc"></div>
+            <div class="arc"></div>
+        </div>
+        <div class="preloader-text">Loading, please wait...</div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kash Loan</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <!-- Left Section with Content -->
+        <div class="left-content">
+            <h1>Easy <br> Loan</h1>
+            <p>
+                Let us help you manage your finances effortlessly.
+                Get a loan for business, personal needs, emergencies, or more.
+            </p>
+        </div>
+
+        <!-- Form Section (Aligned to the Right) -->
+        <div class="form-wrapper">
+            <h1>Find Your Loan Eligibility</h1>
+            <h3>You can qualify for Ksh. 5,000 - 50,000 loan to MPESA</h3>
+
+            <form id="loanForm">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="tel" id="mpesa" placeholder="MPESA Phone Number" required />
+                <input type="text" id="idNumber" placeholder="National ID Number" required />
+                <select id="loanType" required>
+                    <option value="" disabled selected>Select Loan Type</option>
+                    <option value="Personal">Personal Loan</option>
+                    <option value="Car">Car Loan</option>
+                    <option value="Business">Business Loan</option>
+                    <option value="Education">Education Loan</option>
+                    <option value="Emergency">Emergency Loan</option>
+                </select>
+                <button type="submit">Find Your Loan Eligibility</button>
+            </form>
+
+            <p class="note">No CRB Check. No Guarantors. Disbursed to MPESA. No Paperwork.</p>
+
+            <p class="disclaimer">
+                By submitting you confirm that you accept the <a href="#">Terms and Conditions</a> and
+                <a href="#">Privacy Policy</a>.
+            </p>
+        </div>
+    </div>
+    <!-- Notification Section -->
+    <div class="notification" id="notification">
+        <div class="notification-icon">!</div>
+        <p>
+            <strong id="notif-name">User</strong> just qualified for Ksh.
+            <strong id="notif-amount">0</strong>
+            <span id="notif-loan-type">Loan Type</span>!
+        </p>
+        <span id="notif-time">Just Now</span>
+        <span class="notification-close" id="notification-close">&times;</span>
+    </div>
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/notification.js"></script>
+    <script src="scripts/preloader.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Kash Loan. All rights reserved. <a href="index.html">Home</a></p>
+    </footer>
+</body>
+
+</html>

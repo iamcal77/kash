@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <title>Kash Loan Details</title>
+    <link rel="stylesheet" href="styles/loan-details.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kash Loan</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Loan Details Content -->
+    <div class="container">
+        <div class="loan-summary">
+            <p>
+                Hi <strong id="user-name">John Doe</strong>, you have qualified for a loan of Ksh.
+                <strong id="loan-amount">39,000</strong> to your M-PESA. Your repayment period is
+                <strong>2 months</strong> with a <strong>10% interest rate</strong>. Terms and conditions apply.
+            </p>
+        </div>
+
+        <table class="loan-details">
+            <tr>
+                <td>Loan Tracking ID:</td>
+                <td id="tracking-id">-</td>
+            </tr>
+            <tr>
+                <td>Your Name:</td>
+                <td id="display-name">John Doe</td>
+            </tr>
+            <tr>
+                <td>MPESA Number:</td>
+                <td id="mpesa-number">-</td>
+            </tr>
+            <tr>
+                <td>ID Number:</td>
+                <td id="id-number">-</td>
+            </tr>
+            <tr>
+                <td>Loan Type:</td>
+                <td id="loan-type">Education Loan</td>
+            </tr>
+            <tr>
+                <td>Qualified Loan:</td>
+                <td>Ksh. <span id="qualified-loan">0</span></td>
+            </tr>
+            <tr>
+                <td>Verification Fee:</td>
+                <td>Ksh. <span id="verification-fee">0</span></td>
+            </tr>
+        </table>
+
+        <button id="get-loan-btn">Get Loan Now</button>
+
+        <footer>
+            <p>© Kash Loan 2024. All rights reserved. <a href="index.html">Home</a>.</p>
+        </footer>
+    </div>
+
+    <script src="scripts/loan-details.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

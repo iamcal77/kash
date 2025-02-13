@@ -1,0 +1,86 @@
+/* Register Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Subtract height of navbar */
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.form-wrapper {
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-wrapper h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Styling */
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #5c67f2;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5c67f2;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #4a54d1;
+}
+
+.disclaimer {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.disclaimer a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .register-container {
+    padding: 10px;
+  }
+
+  .form-wrapper {
+    padding: 30px;
+  }
+
+
+}

@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #eef5f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5c67f2;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #d1d8ff;
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.navbar.active .nav-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #5c67f2;
+  border-radius: 8px;
+  width: 200px;
+  padding: 15px;
+  gap: 10px;
+  z-index: 999;
+}
+
+/* Container Styling */
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 100px auto 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Loan Summary Section */
+.loan-summary {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Loan Details Table */
+.loan-details td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5c67f2;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4a54d1;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Navbar Adjustments */
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar.active .nav-links {
+    display: flex;
+  }
+
+  /* Container and Table Adjustments */
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .loan-details td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}

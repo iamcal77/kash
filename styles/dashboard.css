@@ -1,0 +1,122 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px; /* Space for navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5c67f2;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #d1d8ff;
+}
+
+/* Dashboard Container Styling */
+.dashboard-container {
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Dashboard Actions - Buttons */
+.dashboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dashboard-actions button {
+  flex: 1 1 calc(33.33% - 20px); /* Three buttons per row */
+  min-width: 150px;
+  padding: 15px;
+  background-color: #5c67f2;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+}
+
+.dashboard-actions button:hover {
+  background-color: #4a54d1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-actions button:active {
+  transform: scale(0.97); /* Subtle click effect */
+}
+
+/* Loan Details Table */
+.loan-details {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.loan-details table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.loan-details td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-actions button {
+    flex: 1 1 100%; /* Full width buttons on smaller screens */
+  }
+
+  .loan-details td {
+    font-size: 14px;
+  }
+}

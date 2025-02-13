@@ -1,0 +1,170 @@
+/* Apply Background Image with Overlay */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/bg.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container Layout */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 500px; /* Left content + Form */
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  gap: 40px;
+  padding: 60px; /* Increase padding for better spacing */
+  margin-top: 40px;
+  margin: 40px 0; /* Add space from top and bottom */
+}
+
+/* Left Section with Content */
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align content towards the bottom */
+  padding: 20px;
+  height: 100%; /* Ensure the section takes full height */
+}
+
+.left-content h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.left-content p {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Form Wrapper */
+.form-wrapper {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.95
+  ); /* Slightly transparent background */
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 450px; /* Limit max width for better readability */
+}
+
+/* Form Heading */
+.form-wrapper h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-wrapper h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+  text-align: center;
+}
+
+/* Input, Select, and Button Styling */
+input,
+select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #5c67f2;
+  outline: none;
+  background-color: #f1f1f1;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.1s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #4a54d1, #1c1f99);
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
+/* Note and Disclaimer Styling */
+.note {
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+.disclaimer a {
+  color: #5c67f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Stack content vertically on mobile */
+  .main-container {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    padding: 20px;
+    margin: 0;
+  }
+
+  /* Hide left content on mobile screens */
+  .left-content {
+    display: none;
+  }
+
+  .form-wrapper {
+    width: 100%; /* Full width on mobile */
+    max-width: 100%;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,97 @@
+/* Styling for the About Us page */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.main-container {
+  margin-top: 120px; /* Space for the fixed navbar */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  background-color: white;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Typography */
+.content-wrapper h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.content-wrapper h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #5c67f2;
+}
+
+.content-wrapper p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Benefits and Values List */
+.benefits-list,
+.values-list {
+  text-align: left;
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.benefits-list li,
+.values-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 30px;
+  }
+
+  .content-wrapper h1 {
+    font-size: 28px;
+  }
+
+  .content-wrapper p,
+  .benefits-list li,
+  .values-list li {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,71 @@
+/* Notification Styling */
+.notification {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #5c67f2;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(100px);
+  opacity: 0;
+  z-index: 1000;
+  max-width: 400px;
+}
+
+/* Show Notification */
+.notification.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Icon Styling */
+.notification-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5c67f2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Close Button Styling */
+.notification-close {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.notification-close:hover {
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .notification {
+    bottom: 20px;
+    right: 10px;
+    font-size: 16px;
+    padding: 15px 20px;
+    max-width: 90%;
+  }
+
+  .notification-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}

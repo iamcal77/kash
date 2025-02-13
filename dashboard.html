@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Kash Loan</title>
+    <link rel="stylesheet" href="styles/shared.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kash Loan</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="dashboard-container">
+        <h1>Welcome, <span id="user-name">User</span>!</h1>
+        <p>Your current loan balance is: Ksh. <span id="loan-balance">0</span></p>
+
+        <div class="dashboard-actions">
+            <button id="request-loan-btn">Request New Loan</button>
+            <button id="pay-loan-btn">Pay Loan</button>
+            <button id="withdraw-btn">Withdraw</button>
+            <button id="update-profile-btn">Update Profile</button>
+        </div>
+
+        <div class="loan-details">
+            <h2>Your Loan Details</h2>
+            <table>
+                <tr>
+                    <td>Loan Type:</td>
+                    <td id="loan-type">-</td>
+                </tr>
+                <tr>
+                    <td>Loan Amount:</td>
+                    <td>Ksh. <span id="loan-amount">0</span></td>
+                </tr>
+                <tr>
+                    <td>Tracking ID:</td>
+                    <td id="tracking-id">-</td>
+                </tr>
+                <tr>
+                    <td>Status:</td>
+                    <td id="Processing">Processing</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kash Loan. Al rights reserved. <a href="index.html">Home</a></p>
+    </footer>
+
+    <script src="scripts/dashboard.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

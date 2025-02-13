@@ -1,0 +1,79 @@
+/* Login Container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  margin: 100px auto; /* Centers the container */
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form Styling */
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #5c67f2;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #5c67f2;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #4a54d1;
+}
+
+.signup-prompt {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-prompt a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+    margin-top: 80px; /* Adjust for smaller screens */
+    padding: 30px;
+  }
+
+  form input,
+  form button {
+    font-size: 16px; /* Ensure readability on smaller screens */
+  }
+}
