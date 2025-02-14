@@ -75,7 +75,7 @@ document.getElementById("withdraw-btn").addEventListener("click", () => {
 
 // M-PESA Push Function
 function initiateMpesaPush(phone, amount, type) {
-  fetch("https://f568-154-159-238-208.ngrok-free.app/stkpush", {
+  fetch("https://kash-iqfc.onrender.com/stkpush", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
