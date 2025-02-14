@@ -111,7 +111,7 @@ async function initiateMpesaPush(phone, amount) {
 
     console.log("Initiating M-PESA push:", { phone, amount });
 
-    const response = await fetch("https://kashloan.co.ke/stkpush", {
+    const response = await fetch("https://kash-iqfc.onrender.com/stkpush", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
