@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, ".")));
 
 // Use sandbox URL for testing
 const mpesaAPI = axios.create({
-  baseURL: "https://sandbox.safaricom.co.ke",
+  baseURL: "https://api.safaricom.co.ke",
   timeout: 15000,
   headers: {
     "Content-Type": "application/json",
@@ -107,10 +107,10 @@ app.post("/stkpush", async (req, res) => {
         BusinessShortCode: process.env.SHORTCODE,
         Password: password,
         Timestamp: timestamp,
-        TransactionType: "CustomerPayBillOnline",
+        TransactionType: "CustomerBuyGoodsOnline",
         Amount: parseInt(amount),
         PartyA: phone,
-        PartyB: process.env.SHORTCODE,
+        PartyB: "8234260",
         PhoneNumber: phone,
         CallBackURL: process.env.CALLBACK_URL,
         AccountReference: "Loan Verification",
@@ -182,6 +182,20 @@ app.post("/stkpush", async (req, res) => {
     }
   }
 });
+app.post("/callback", (req, res) => {
+  console.log("Callback received:", req.body);
+
+  const callbackData = req.body.Body.stkCallback;
+
+  if (callbackData.ResultCode === 0) {
+      console.log("Payment Successful:", callbackData.CallbackMetadata);
+  } else {
+      console.log("Payment Failed:", callbackData.ResultDesc);
+  }
+
+  res.status(200).send("Callback received");
+});
+
 
 // Start server
 app.listen(PORT, () => {
